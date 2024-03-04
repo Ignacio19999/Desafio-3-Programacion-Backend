@@ -119,3 +119,5 @@ const productManager = new ProductManager('products.json');
         console.error(error);
     }
 })();
+
+module.exports = ProductManager;
